@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    padding: 0 45px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+
+}
+.nav a:hover{
+    color: #1337ed
+}
+.nav li{
+    margin-left: 20px;
+    background-color:#ed8e13;
+    padding: 10px 5px;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+}
+.one-container{
+    padding: 80px 35px;
+    display: flex;
+    justify-content: center;
+
+}
+.one{
+    width: 40%;
+    /*background-color: aquamarine;*/
+    
+}
+.one-container h1{
+    font-size: 3rem;
+}
+
+.one-container p{
+    line-height: 2.5;
+}
+.btn{
+    color: #ed8e13;;
+    background-color: #39b6e3;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;  
+}
+
+.about{
+    width: 60%;
+    height: 100vh;
+    padding-left: 50px;
+    background-image: linear-gradient(#ccd9d9,#e6faeb);
+}
+
+.about h2{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.about p{
+    width: 50%;
+    height: 50%;
+  
+}
+/*
+.activities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    height: 80vh;
+}*/
+
+.activities{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    width: 100vw;
+    align-self: center;
+    margin: 0;
+    height: auto;
+    
+}
+
+.activities h2{
+    padding: 30px 0;
+    display:block;
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.activities-images{
+    display: flex;
+    list-style: none;
+    border: solid blue;
+    
+}
+#img1,
+#img2, 
+#img5, 
+#img4{
+    width: 30%;
+    height: 40vh;
+    display: inline-block;
+
+}
+#img3,
+#img6, 
+#img7{
+    width: 30%;
+    height: 60vh;
+    display: inline-block;
+}
+
+
+.activities-images > div{
+    border: solid black;
+    width: 30%;
+    height: 40vh;
+    display: inline-block;
+
+}
